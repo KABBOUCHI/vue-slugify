@@ -1,0 +1,32 @@
+{
+  "name": "vue-slugify",
+  "version": "0.0.1",
+  "description": "",
+  "main": "vue-slugify.js",
+  "files": [
+    "vue-slugify.js"
+  ],
+  "scripts": {
+    "build": "$(npm bin)/browserify browserify-me.js -o dist/vue-slugify.js && $(npm bin)/uglifyjs dist/vue-slugify.js -o dist/vue-slugify.min.js && echo Success"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kabbouchi/vue-slugify.git"
+  },
+  "keywords": [
+    "slug",
+    "slugify",
+    "vue"
+  ],
+  "author": "Georges KABBOUCHI <georges.kabbouchi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kabbouchi/vue-slugify/issues"
+  },
+  "devDependencies": {
+    "browserify": "^14.3.0",
+    "uglify-js": "^2.8.22",
+    "vue": "^2.2.6",
+    "webpack": "^2.3.3"
+  }
+}
