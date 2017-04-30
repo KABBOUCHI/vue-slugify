@@ -1,22 +1,22 @@
-# vue-tippy
+# vue-slugify
 
-> Directive wrapper for Tippy.js 0.11
+> Slug directive plugin for Vue.js.
 
 ## Install
 
-#### Available through npm as `vue-tippy`.
+#### Available through npm as `vue-slugify`.
 
   ``` js
-  var vueTippyy = require('vue-tippy')
-  Vue.use(vueTippy)
+  var VueSlugify = require('vue-slugify')
+  Vue.use(VueSlugify)
   ```
 
 ## Usage
 
-#### Using the `v-tippy` directive
+#### Using the `v-slugify` directive
 
 ``` html
- <button v-tippy> My Button! </button>
+<input type="text" v-slugify>
 ```
 
 ## License
