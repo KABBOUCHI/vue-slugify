@@ -1,5 +1,5 @@
-const VueSlugify = require('./vue-slugify.js');
+const vueTippy = require('./vue-tippy.js');
 
-global.VueSlugify = VueSlugify;
+global.VueTippy = vueTippy;
 
-window.Vue && global.Vue.use(VueSlugify);
+window.Vue && global.Vue.use(vueTippy);
